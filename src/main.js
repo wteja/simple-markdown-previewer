@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const preview = document.getElementById("preview");
 
     let defaultValue = "# Markdown Previewer\n\n";
-    defaultValue += "![Markdown Previewer](https://cdn2.iconfinder.com/data/icons/valentines-day-flat-line-1/50/love-notebook-256.png)\n\n";
+    defaultValue += "![Markdown Previewer](./image.png)\n\n";
     defaultValue += "## This is a simple markdown previewer made with HTML + CSS + Vanilla JavaScript\n\n";
     defaultValue += "Check [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on how to use Markdown.\n\n";
     defaultValue += "### Sample Code Block\n\n";

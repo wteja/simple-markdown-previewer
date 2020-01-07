@@ -44,3 +44,21 @@ main {
     margin-top: 10px;
     flex: 0 1 auto;
 }
+
+@media screen and (orientation: portrait) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #editor, #preview {
+        width: calc(100% - 25px);
+        height: calc(50vh - 20px);
+    }
+
+    #preview {
+        width: calc(100% - 40px);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
