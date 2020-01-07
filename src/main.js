@@ -1,3 +1,6 @@
+'use strict';
+
+// Set Marked.js default options.
 marked.setOptions({
     gfm: true,
     breaks: true,
@@ -5,7 +8,6 @@ marked.setOptions({
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    'strict';
 
     const editor = document.getElementById("editor");
     const preview = document.getElementById("preview");
